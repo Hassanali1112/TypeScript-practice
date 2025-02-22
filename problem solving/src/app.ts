@@ -502,3 +502,19 @@ let newCircle = new CircleClass(3)
 
 console.log(newCircle.calculateArea())
 
+
+// 16 => Create a function called addNumbers that takes two parameters of type number and returns their sum. Then, create a function called concatStrings that takes two parameters of type string and returns their concatenation. Call both functions with sample inputs and log the results.
+
+
+const addNumbers = ( num1 : number, num2 : number) =>{
+  return num1 + num2
+}
+
+
+const concatStrings = ( str1 : string, str2 : string) =>{
+  return str1 + str2
+}
+
+
+console.log(addNumbers(33,76))
+console.log(concatStrings("32","88"))
